@@ -18,7 +18,7 @@ import java.util.Map;
 public class KafkaConfig {
 
     //todo Add env variable to config file instead of hardcoding the url
-    private static final String BOOTSTRAP_ADDRESS = "localhost:29092";
+    private static final String BOOTSTRAP_ADDRESS = "kafka:29092";
 
     /**
      * Create kafka consumer factory.

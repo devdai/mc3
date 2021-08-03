@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class RestService {
 
-    private static final String MC1_URL = "http://localhost:8081/receive-message";
+    private static final String MC1_URL = "http://mc1:8080/mc1/receive-message";
     private final RestTemplate restTemplate;
 
     public RestService(RestTemplateBuilder restTemplateBuilder) {
